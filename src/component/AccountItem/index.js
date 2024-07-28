@@ -14,10 +14,10 @@ function AccountItem() {
                 alt="Img Default"
             />
             <div className={cx('info')}>
-                <p className={cx('name')}>
+                <h4 className={cx('name')}>
                     <span>i_am_young22</span>
-                    <FontAwesomeIcon icon={faCheckCircle} />
-                </p>
+                    <FontAwesomeIcon className={cx('check')} icon={faCheckCircle} />
+                </h4>
                 <span className={cx('username')}>냥뇽녕냥👻</span>
             </div>
         </div>
