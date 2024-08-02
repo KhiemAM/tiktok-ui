@@ -4,15 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faCircleQuestion,
     faCircleXmark,
-    faCloudUpload,
     faCoins,
     faEarthAsia,
     faEllipsisVertical,
     faGear,
     faKeyboard,
     faMagnifyingGlass,
-    faMessage,
-    faSignIn,
     faSignOut,
     faSpinner,
     faUser,
@@ -27,6 +24,8 @@ import { Wrapper as PopperWrapper } from '~/component/Popper';
 import AccountItem from '~/component/AccountItem';
 import Button from '~/component/Button';
 import Menu from '~/component/Popper/Menu';
+import { UploadIcon } from '~/component/Icons';
+import Image from '~/component/Image';
 
 const cx = classNames.bind(styles);
 
@@ -136,7 +135,7 @@ function Header() {
                         <>
                             <Tippy content="Upload video">
                                 <button className={cx('action-btn')}>
-                                    <FontAwesomeIcon icon={faCloudUpload} />
+                                    <UploadIcon width="2.6rem" height="2.6rem" />
                                 </button>
                             </Tippy>
                         </>
@@ -148,7 +147,7 @@ function Header() {
                     )}
                     <Menu items={currentUser ? userMenu : MENU_ITEMS} onChange={hanhleMenuChange}>
                         {currentUser ? (
-                            <img src={images.avatar} className={cx('user-avatar')} alt="KAM" />
+                            <Image src={images.avatar} className={cx('user-avatar')} alt="KAM" />
                         ) : (
                             <button className={cx('more-btn')}>
                                 <FontAwesomeIcon icon={faEllipsisVertical} />
