@@ -40,6 +40,74 @@ const MENU_ITEMS = [
                     code: 'vi',
                     title: 'Tiếng Việt',
                 },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
+                {
+                    code: 'vi',
+                    title: 'Tiếng Việt',
+                },
             ],
         },
     },
